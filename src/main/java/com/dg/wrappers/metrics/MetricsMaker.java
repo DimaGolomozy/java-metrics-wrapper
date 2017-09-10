@@ -1,9 +1,9 @@
 package com.dg.wrappers.metrics;
 
-import com.dg.wrappers.metrics.metrics.CountMetric;
-import com.dg.wrappers.metrics.metrics.DurationMetric;
-import com.dg.wrappers.metrics.metrics.GaugeMetric;
-import com.dg.wrappers.metrics.metrics.TimeMetric;
+import com.dg.wrappers.metrics.objects.CountMetric;
+import com.dg.wrappers.metrics.objects.DurationMetric;
+import com.dg.wrappers.metrics.objects.GaugeMetric;
+import com.dg.wrappers.metrics.objects.TimeMetric;
 import com.dg.wrappers.metrics.reporter.MetricsReporter;
 
 /**

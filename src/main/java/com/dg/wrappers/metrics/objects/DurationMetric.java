@@ -1,4 +1,4 @@
-package com.dg.wrappers.metrics.metrics;
+package com.dg.wrappers.metrics.objects;
 
 import com.dg.wrappers.metrics.reporter.MetricsReporter;
 

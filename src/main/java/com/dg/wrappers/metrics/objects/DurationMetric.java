@@ -30,7 +30,7 @@ public class DurationMetric extends BaseMetric {
     }
 
     public void reportDuration() {
-        metricsReporter.recordExecutionTime(aspect, getDuration());
+        metricsReporter.recordTime(aspect, getDuration());
     }
 
     public void stopAndReport() {

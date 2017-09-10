@@ -75,5 +75,5 @@ public interface MetricsReporter {
      * @param timeInMs
      *     the time in milliseconds
      */
-    void recordExecutionTime(String aspect, long timeInMs);
+    void recordTime(String aspect, long timeInMs);
 }

@@ -10,7 +10,7 @@ public class TimeMetric extends BaseMetric {
         super(metricName, metricsReporter);
     }
 
-    public void recordExecutionTime(String aspect, long timeInMs) {
-        metricsReporter.recordExecutionTime(aspect, timeInMs);
+    public void recordTime(String aspect, long timeInMs) {
+        metricsReporter.recordTime(aspect, timeInMs);
     }
 }

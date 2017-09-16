@@ -1,6 +1,6 @@
 package com.dg.wrappers.metrics.objects;
 
-import com.dg.wrappers.metrics.reporter.MetricsReporter;
+import com.dg.wrappers.metrics.reporters.MetricsReporter;
 
 /**
  * @author dima.golomozy
@@ -15,10 +15,10 @@ public class CountMetric extends BaseMetric {
     }
 
     public void increment() {
-        metricsReporter.increment(aspect);
+        count(1);
     }
 
     public void decrement() {
-        metricsReporter.decrement(aspect);
+        count(-1);
     }
 }

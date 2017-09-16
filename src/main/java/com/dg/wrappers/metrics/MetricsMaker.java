@@ -4,7 +4,7 @@ import com.dg.wrappers.metrics.objects.CountMetric;
 import com.dg.wrappers.metrics.objects.DurationMetric;
 import com.dg.wrappers.metrics.objects.GaugeMetric;
 import com.dg.wrappers.metrics.objects.TimeMetric;
-import com.dg.wrappers.metrics.reporter.MetricsReporter;
+import com.dg.wrappers.metrics.reporters.MetricsReporter;
 
 /**
  * @author dima.golomozy

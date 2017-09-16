@@ -1,6 +1,6 @@
 package com.dg.wrappers.metrics.objects;
 
-import com.dg.wrappers.metrics.reporter.MetricsReporter;
+import com.dg.wrappers.metrics.reporters.MetricsReporter;
 
 /**
  * @author dima.golomozy

@@ -3,6 +3,9 @@ package com.dg.wrappers.metrics.objects;
 import com.dg.wrappers.metrics.reporters.MetricsReporter;
 
 /**
+ * Base metric class.
+ * Extend this class to add custom metrics objects.
+ *
  * @author dima.golomozy
  */
 public abstract class BaseMetric {

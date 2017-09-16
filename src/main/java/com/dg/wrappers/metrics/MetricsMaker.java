@@ -7,6 +7,8 @@ import com.dg.wrappers.metrics.objects.TimeMetric;
 import com.dg.wrappers.metrics.reporters.MetricsReporter;
 
 /**
+ * Use this class to create metric of any type.
+ * Extend this class to add custom metrics objects.
  * @author dima.golomozy
  */
 public class MetricsMaker {

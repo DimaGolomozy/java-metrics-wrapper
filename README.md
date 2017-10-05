@@ -1,7 +1,6 @@
-# java-metrics-wrapper
+# java-metrics-wrapper  [![GitHub release](https://img.shields.io/github/release/DimaGolomozy/java-metrics-wrapper.svg)]()
 Wrapper for easy metric client implementing.
 
-[![GitHub release](https://img.shields.io/github/release/DimaGolomozy/java-metrics-wrapper.svg)]()
 ## Usage
 
 Extend interface ``MetricReporter`` with the diseired metrics client (like [java-statsd-client](https://github.com/tim-group/java-statsd-client))
